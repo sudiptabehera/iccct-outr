@@ -1,0 +1,62 @@
+div.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 2rem 0 2rem;
+}
+
+div.heading h1 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  font-family: var(--font-family);
+  max-width: 510px;
+}
+
+div.heading p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+  cursor: pointer;
+}
+
+div.submissions-container {
+  display: flex;
+}
+
+div.submissions-container div {
+  padding: 0 2rem;
+}
+
+div.submissions-container div.left {
+  margin: 0 1rem;
+}
+
+div.submissions-container div.left ul {
+  list-style: none;
+}
+
+div.submissions-container div.left button {
+  padding: 0.71rem 2.5rem;
+  margin: 0.5rem 0;
+  background: var(--color-bg);
+  color: #fff;
+  font-family: var(--font-family);
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+div.submissions-container div.right {
+  background: var(--color-footer);
+  padding: 2rem;
+  font-family: var(--font-family);
+}
+
+.gradient_btn {
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+}

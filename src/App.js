@@ -1,9 +1,19 @@
-import React from 'react';
+import React from "react";
 
-import { Footer, Blog, Possibility, Features, WhatGPT3, Header, Speaker } from './containers';
-import { CTA, Brand, Navbar } from './components';
+import {
+  Footer,
+  Blog,
+  Possibility,
+  Features,
+  WhatGPT3,
+  Header,
+  Speaker,
+  Registration
+} from "./containers";
+import { CTA, Brand, Navbar } from "./components";
 
-import './App.css';
+import "./App.css";
+import Submissions from "./containers/Submissions/Submissions";
 
 function App() {
   return (
@@ -17,10 +27,13 @@ function App() {
       <Possibility />
       <Brand />
       <WhatGPT3 />
-      <CTA />
-      <Blog />
       <Speaker />
       <Features />
+      <Registration />
+      <Submissions />
+      
+      <CTA />
+      <Blog />
       <Footer />
     </div>
   );

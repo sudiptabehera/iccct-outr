@@ -3,13 +3,14 @@ import StepA from "./StepA";
 import StepB from "./StepB";
 import StepC from "./StepC";
 import StepD from "./StepD";
-import "../../assets/style/submission.css";
+import "./submission.css";
 
 function Submissions() {
   const [component, updateComponent] = useState(<StepA />);
+  const [isActive, setActive] = useState("Step&nbsp;A");
 
   return (
-    <div className="submissions" style={{ color: "white" }}>
+    <div className="submissions section__padding" style={{ color: "white" }}>
       <div className="heading">
         <h1 className="gradient__text">SUBMISSION</h1>
         <p>
@@ -17,31 +18,91 @@ function Submissions() {
           Data Futurology (ICACIDF-2023)
         </p>
       </div>
-      <div>
-        <ul>
-          <li>
-            <button type="button" onClick={() => updateComponent(<StepA />)}>
-              StepA
-            </button>
-          </li>
-          <li>
-            <button type="button" onClick={() => updateComponent(<StepB />)}>
-              StepB
-            </button>
-          </li>
-          <li>
-            <button type="button" onClick={() => updateComponent(<StepC />)}>
-              StepC
-            </button>
-          </li>
-          <li>
-            <button type="button" onClick={() => updateComponent(<StepD />)}>
-              StepD
-            </button>
-          </li>
-        </ul>
+
+      <div className="submissions-container">
+        <div className="left ">
+          <ul>
+            <li>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  updateComponent(<StepA />);
+                  setActive(e.target.innerHTML);
+                }}
+                style={
+                  isActive === "Step&nbsp;A"
+                    ? {
+                        background:
+                          "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)",
+                      }
+                    : {}
+                }
+              >
+                Step&nbsp;A
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  updateComponent(<StepB />);
+                  setActive(e.target.innerHTML);
+                }}
+                style={
+                  isActive === "Step&nbsp;B"
+                    ? {
+                        background:
+                          "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)",
+                      }
+                    : {}
+                }
+              >
+                Step&nbsp;B
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  updateComponent(<StepC />);
+                  setActive(e.target.innerHTML);
+                }}
+                style={
+                  isActive === "Step&nbsp;C"
+                    ? {
+                        background:
+                          "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)",
+                      }
+                    : {}
+                }
+              >
+                Step&nbsp;C
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  updateComponent(<StepD />);
+                  setActive(e.target.innerHTML);
+                }}
+                style={
+                  isActive === "Step&nbsp;D"
+                    ? {
+                        background:
+                          "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)",
+                      }
+                    : {}
+                }
+              >
+                Step&nbsp;D
+              </button>
+            </li>
+          </ul>
+        </div>
+
+        <div className="right ">{component}</div>
       </div>
-      <div>{component}</div>
     </div>
   );
 }
