@@ -6,3 +6,4 @@ export { default as Possibility } from './possibility/Possibility';
 export { default as WhatGPT3 } from './whatGPT3/WhatGPT3';
 export { default as Speaker } from './speaker/Speaker';
 export { default as Registration} from './Registration/Registration'
+export {default as Committee} from './Committee/Committee'

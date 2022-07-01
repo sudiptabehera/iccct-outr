@@ -8,7 +8,8 @@ import {
   WhatGPT3,
   Header,
   Speaker,
-  Registration
+  Registration,
+  Committee
 } from "./containers";
 import { CTA, Brand, Navbar } from "./components";
 
@@ -31,7 +32,7 @@ function App() {
       <Features />
       <Registration />
       <Submissions />
-      
+      <Committee></Committee>
       <CTA />
       <Blog />
       <Footer />
