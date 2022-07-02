@@ -54,7 +54,7 @@ table{
 }
 th{
   padding: 20px 15px;
-  text-align: right;
+  text-align: left;
   font-weight: 500;
   font-size: 0.8rem;
   color: #fff;
@@ -63,7 +63,7 @@ th{
 }
 td{
   padding: 10px;
-  text-align: right;
+  text-align: left;
   vertical-align:middle;
   font-weight: 300;
   font-size: 0.8rem;
