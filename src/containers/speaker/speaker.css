@@ -33,11 +33,18 @@
     margin-right: 2rem;
 }
 
+.gpt3__blog-container_groupC {
+    flex:1;
+
+    display:grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-gap: 2rem;
+}
 .gpt3__blog-container_groupB {
     flex:1;
 
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 0.5fr);
     grid-gap: 2rem;
 }
 

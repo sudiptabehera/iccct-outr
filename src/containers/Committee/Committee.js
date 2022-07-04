@@ -16,7 +16,7 @@ function Committee() {
   const [isActive, setActive] = useState("Patron");
 
   return (
-    <div className="submissions section__padding" style={{ color: "white" }}>
+    <div className="submissions section__padding" style={{ color: "white" }} id="members">
       <div className="heading">
         <h1 className="gradient__text">Committee Members</h1>
         <p>

@@ -12,7 +12,7 @@ function Article({ imgUrl, date, text }) {
           <p>{date}</p>
           <h3>{text}</h3>
         </div>
-        <p>Read Full Article</p>
+        <p>INFO</p>
       </div>
     </div>
   );

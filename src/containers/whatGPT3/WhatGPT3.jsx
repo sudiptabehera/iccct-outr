@@ -4,7 +4,7 @@ import './whatGPT3.css';
 
 function WhatGPT3() {
   return (
-    <div className="gpt3__whatgpt3 section__margin" id="wgpt3">
+    <div className="gpt3__whatgpt3 section__margin" id="">
       <div className="gpt3__whatgpt3-heading">
         <h1 className="gradient__text">SCOPE OF THE CONFERENCE</h1>
       </div>

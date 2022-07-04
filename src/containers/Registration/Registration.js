@@ -8,7 +8,7 @@ function Registration() {
   const [isActive, setActive] = useState("Registration");
 
   return (
-    <div className="submissions section__padding" style={{ color: "white" }}>
+    <div className="submissions section__padding" style={{ color: "white" }} id="registration">
       <div className="heading">
         <h1 className="gradient__text">Registration</h1>
         <p>

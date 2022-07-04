@@ -16,11 +16,11 @@ function Navbar() {
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
           <p><a href="#about">About</a></p>
-          <p><a href="#home">Schedules</a></p>
-          <p><a href="#home">Registation</a></p>
-          <p><a href="#home">Submission</a></p>
-          <p><a href="#wgpt3">Members</a></p>
-          <p><a href="#possibility">Contact</a></p>
+          <p><a href="#schedules">Schedules</a></p>
+          <p><a href="#registration">Registration</a></p>
+          <p><a href="#submission">Submission</a></p>
+          <p><a href="#members">Members</a></p>
+          <p><a href="#contact">Contact</a></p>
         </div>
       </div>
       <div className="gpt3__navbar-menu">

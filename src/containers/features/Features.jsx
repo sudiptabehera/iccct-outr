@@ -27,7 +27,7 @@ const featuresData = [
 
 function Features() {
   return (
-    <div className="gpt3__features section__padding" id="features">
+    <div className="gpt3__features section__padding" id="schedules">
       <div className="gpt3__features-heading">
         <h1 className="gradient__text">Important Dates</h1>
         <p>Request Early Access to Get Started</p>

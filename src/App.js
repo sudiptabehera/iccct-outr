@@ -32,8 +32,9 @@ function App() {
       <Features />
       <Registration />
       <Submissions />
-      <Committee></Committee>
       <CTA />
+      <Committee></Committee>
+      
       <Blog />
       <Footer />
     </div>

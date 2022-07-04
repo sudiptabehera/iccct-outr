@@ -10,7 +10,7 @@ function Submissions() {
   const [isActive, setActive] = useState("Step&nbsp;A");
 
   return (
-    <div className="submissions section__padding" style={{ color: "white" }}>
+    <div className="submissions section__padding" style={{ color: "white" }} id="submission">
       <div className="heading">
         <h1 className="gradient__text">SUBMISSION</h1>
         <p>
