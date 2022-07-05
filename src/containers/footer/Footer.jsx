@@ -8,7 +8,7 @@ function Footer() {
   return (
     <div className="gpt3__footer section__padding" id="contact">
       <div className="gpt3__footer-heading">
-        <h1 className="gradient__text">Contact Us </h1>
+        {/* <h1 className="gradient__text">Contact Us </h1> */}
       </div>
       
         {/* <div className="gpt3__possibility-image">
@@ -16,19 +16,22 @@ function Footer() {
       </div> */}
         <div className="gpt3__possibility-content">
           {/* <h4>Request Early Access to Get Started</h4> */}
-          <h1 className="gradient__text" >Odisha University of Technology and Research (OUTR) </h1>
-          <h4>(Formerly College of Engineering and Technology)</h4>
+          {/* <h2 className="gradient__text" >Odisha University of Technology and Research (OUTR)<br></br>(Formerly College of Engineering and Technology) </h2>
+          <h4 style={{textAlign:"center"}}>(Formerly College of Engineering and Technology)</h4>
           <p><ul>
         <li>Dr. Sanjeet Kumar Dash , Dept. of IT , OUTR</li>
-        <br></br>Ph. No:-91-9437990892
+        Ph. No:-91-9437990892
         <br></br>Mail-id:-
+        <br></br><br></br>
         <li>Dr. Sanjeet Kumar Dash , Dept. of IT , OUTR</li>
-        <br></br>Ph. No:-91-9437990892
+        Ph. No:-91-9437990892
         <br></br>Mail-id:-
+        <br></br><br></br>
         <li>Dr. Sanjeet Kumar Dash , Dept. of IT , OUTR</li>
-        <br></br>Ph. No:-91-9437990892
+        Ph. No:-91-9437990892
         <br></br>Mail-id:-
-      </ul></p>
+        <br></br><br></br>
+      </ul></p> */}
           
           {/* <h4>Request Early Access to Get Started</h4> */}
         

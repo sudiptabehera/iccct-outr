@@ -1,0 +1,28 @@
+section.hero-section {
+  height: 90vh;
+  width: 100%;
+  background: url("./outr.jpg") center center no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-color: rgba(0, 0, 0, 0.75); /* Tint color */
+  background-blend-mode: multiply;
+}
+
+section.hero-section div.hero-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+}
+
+section.hero-section div.hero-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 45px;
+  text-align: center;
+  background: -webkit-linear-gradient(180deg, #8a21fa 1.84%, #ff6715 102.67%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

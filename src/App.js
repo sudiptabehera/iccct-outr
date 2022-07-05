@@ -9,12 +9,15 @@ import {
   Header,
   Speaker,
   Registration,
-  Committee
+  Committee,
+  Countdown,
+  ContactUs,
 } from "./containers";
 import { CTA, Brand, Navbar } from "./components";
 
 import "./App.css";
 import Submissions from "./containers/Submissions/Submissions";
+import Hero from "./containers/hero/Hero";
 
 function App() {
   return (
@@ -22,9 +25,11 @@ function App() {
       <div className="stickyNav gradient__bg">
         <Navbar />
       </div>
+      <Hero />
       <div className="gradient__bg">
         <Header />
       </div>
+      <Countdown />
       <Possibility />
       <Brand />
       <WhatGPT3 />
@@ -34,8 +39,9 @@ function App() {
       <Submissions />
       <CTA />
       <Committee></Committee>
-      
+
       <Blog />
+      <ContactUs></ContactUs>
       <Footer />
     </div>
   );

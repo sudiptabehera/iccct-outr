@@ -1,0 +1,25 @@
+section.countdown {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 4rem;
+    border-radius: 1rem;
+    background: linear-gradient(103.22deg, #7411de -13.86%, #ff7429 99.55%);
+    padding: 2rem;
+    
+  }
+  
+  section.countdown div {
+    text-align: center;
+  }
+  
+  section.countdown div h2{
+      font-family: var(--font-family);
+      font-size: 2rem;
+  }
+  
+  section.countdown div p{
+      font-family: var(--font-family);
+  }
