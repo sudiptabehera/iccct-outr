@@ -20,8 +20,8 @@ function Committee() {
       <div className="heading">
         <h1 className="gradient__text">Committee Members</h1>
         <p>
-          1st International Conference on Advanced Computational Intelligence in
-          Data Futurology (ICACIDF-2023)
+        1st International Conference on Communication and Computational
+            Techniques (ICCCT-2022)
         </p>
       </div>
 
