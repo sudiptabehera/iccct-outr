@@ -37,7 +37,7 @@
     flex:1;
 
     display:grid;
-    grid-template-columns: repeat(4, 0.5fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
 }
 .gpt3__blog-container_groupB {
@@ -69,7 +69,7 @@
 
 @media screen and (max-width: 700px) {
     .gpt3__blog-container_groupB {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(1, 0.5fr);
     }
 
     .gpt3__blog-container_groupA .gpt3__blog-container_article  {
