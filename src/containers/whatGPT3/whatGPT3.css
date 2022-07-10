@@ -91,6 +91,9 @@
 }
 
 @media screen and (max-width: 850px) {
+    .gpt3__whatgpt3{
+    background: var(--color-footer);
+    }
     .gpt3__whatgpt3-heading {
         flex-direction: column;
         margin-bottom: 0rem;

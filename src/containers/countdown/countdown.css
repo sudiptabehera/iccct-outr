@@ -8,7 +8,6 @@ section.countdown {
     border-radius: 1rem;
     background: linear-gradient(103.22deg, #7411de -13.86%, #ff7429 99.55%);
     padding: 2rem;
-    
   }
   
   section.countdown div {
@@ -22,4 +21,17 @@ section.countdown {
   
   section.countdown div p{
       font-family: var(--font-family);
+  }
+
+  @media screen and (max-width: 650px) {
+    section.countdown{
+    margin: 0rem 2rem;
+    }
+    section.countdown div{
+      margin: 0.3rem;
+      padding: 0.3rem;
+    }
+    section.countdown div h2{
+      font-size: 1rem;
+  }
   }

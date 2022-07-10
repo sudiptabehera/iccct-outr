@@ -36,7 +36,7 @@ div.submissions-container div.left {
   margin: 0 1rem;
 }
 
-div.submissions-container div.left ul {
+ul {
   list-style: none;
 }
 

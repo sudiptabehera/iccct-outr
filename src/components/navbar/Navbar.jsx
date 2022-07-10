@@ -37,10 +37,6 @@ function Navbar() {
             <p><a href="#blog">Industry Forum</a></p>
             <p><a href="#blog">Contact Us</a></p>
           </div>
-          <div className="gpt3__navbar-menu_container-links-sign">
-            <p>Sign in</p>
-            <button type="button">Sign up</button>
-          </div>
         </div>
         )}
       </div>

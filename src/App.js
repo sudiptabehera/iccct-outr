@@ -38,10 +38,10 @@ function App() {
       <Registration />
       <Submissions />
       <CTA />
-      <Committee></Committee>
+      <Committee/>
 
       <Blog />
-      <ContactUs></ContactUs>
+      <ContactUs/>
       <Footer />
     </div>
   );

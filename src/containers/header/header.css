@@ -137,6 +137,10 @@
         flex-direction: column;
     }
 
+    .gpt3__header-image img {
+        height: 350px;
+    }
+
     .gpt3__header-content__people p {
         margin: 0;
     }
