@@ -24,6 +24,7 @@ function Submissions() {
           <ul>
             <li>
               <button
+                
                 onClick={(e) => {
                   e.preventDefault();
                   updateComponent(<StepA />);
@@ -101,7 +102,7 @@ function Submissions() {
           </ul>
         </div>
 
-        <div className="right ">{component}</div>
+        <div className="right" id="component-content">{component}</div>
       </div>
     </div>
   );
