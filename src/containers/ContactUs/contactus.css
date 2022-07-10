@@ -15,7 +15,7 @@ div.heading h1 {
   max-width: 510px;
 }
 
-div.heading p {
+div.heading {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
@@ -38,6 +38,10 @@ div.submissions-container div.left {
 
 ul {
   list-style: none;
+}
+
+li{
+  margin-bottom: 2rem;
 }
 
 div.submissions-container div.left button {
