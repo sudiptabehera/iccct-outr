@@ -30,17 +30,18 @@ function Navbar() {
         {toggleMenu && (
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
-            <p><a href="#home">Home</a></p>
-            <p><a href="#wgpt3">For Authors</a></p>
-            <p><a href="#possibility">Committee</a></p>
-            <p><a href="#features">Registration</a></p>
-            <p><a href="#blog">Industry Forum</a></p>
-            <p><a href="#blog">Contact Us</a></p>
+          <p><a href="#home">Home</a></p>
+          <p><a href="#about">About</a></p>
+          <p><a href="#schedules">Schedules</a></p>
+          <p><a href="#registration">Registration</a></p>
+          <p><a href="#submission">Submission</a></p>
+          <p><a href="#members">Members</a></p>
+          <p><a href="#contact">Contact</a></p>
           </div>
-          <div className="gpt3__navbar-menu_container-links-sign">
+          {/* <div className="gpt3__navbar-menu_container-links-sign">
             <p>Sign in</p>
             <button type="button">Sign up</button>
-          </div>
+          </div> */}
         </div>
         )}
       </div>

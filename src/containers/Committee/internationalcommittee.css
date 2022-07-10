@@ -1,6 +1,8 @@
 table{
   width:100%;
   table-layout: fixed;
+  border-spacing: 5px;
+  
 }
 .tbl-header{
   background-color: rgba(255,255,255,0.3);
@@ -19,6 +21,9 @@ th{
   color: #fff;
   text-transform: uppercase;
   min-width: 4rem;
+  min-width: 6rem;
+  text-align: center;
+  word-wrap: break-word;
 }
 td{
   padding: 20px;
@@ -28,11 +33,19 @@ td{
   font-size: 18px;
   color: #fff;
   border-bottom: solid 1px rgba(255,255,255,0.1);
+  word-wrap: break-word;
+  hyphens: manual;
 }
 
 .f_col{
   width: 30rem;
 }
+
+
+
+
+
+
 
 
 @media screen and (max-width: 990px) {
