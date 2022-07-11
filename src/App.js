@@ -40,7 +40,7 @@ function App() {
       <CTA />
       <Committee></Committee>
 
-      <Blog />
+      {/* <Blog /> */}
       <ContactUs></ContactUs>
       <Footer />
     </div>
