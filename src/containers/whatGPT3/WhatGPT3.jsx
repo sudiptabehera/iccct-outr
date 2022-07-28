@@ -9,7 +9,7 @@ function WhatGPT3() {
         <h1 className="gradient__text">SCOPE OF THE CONFERENCE</h1>
       </div>
       <div className="gpt3__whatgpt3-heading">
-        <p>Original contributions from researchers describing their original, unpublished, research contribution which is not currently under review by another conference or journal and addressing state-of-the-art research are invited to share their work in all areas of ICMLDE 2022 but not limited to the conference tracks.</p>
+        <p>Original contributions from researchers describing their original, unpublished, research contribution which is not currently under review by another conference or journal and addressing state-of-the-art research are invited to share their work in all areas of ICCCT 2022 but not limited to the conference tracks.</p>
         <br />
         <p>Conference Sub Themes and Tracks:</p>
       </div>
