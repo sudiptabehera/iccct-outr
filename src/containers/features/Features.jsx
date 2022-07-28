@@ -4,20 +4,20 @@ import './features.css';
 
 const featuresData = [
   {
-    title: '20th June 2022',
-    text: 'Submission of Full Manuscript',
+    title: '15th September 2022',
+    text: 'Submission of Extended Abstract',
   },
   {
-    title: '20th August 2022 ',
+    title: '15th October 2022 ',
     text: 'Notification of Acceptance',
   },
   {
-    title: '20th September 2022',
-    text: 'submission deadline for revised papers',
+    title: '15th November 2022',
+    text: 'Submission Deadline for Revised Papers (if required)',
   },
   {
-    title: '20th October 2022',
-    text: 'Registration deadline',
+    title: '30th November 2022',
+    text: 'Registration Deadline',
   },
   {
     title: '16-17 December, 2022',

@@ -7,7 +7,7 @@ function StepC() {
       <br></br>
       <br />
       <ul>
-        <li>Dr. Sanjeet Kumar Dash , Dept. of IT , OUTR</li>
+        <li>Dr. Sanjit Kumar Dash , Dept. of IT , OUTR</li>
         <br></br>Ph. No:-91-9437990892
         <br></br>Mail-id:-
       </ul>

@@ -42,7 +42,7 @@ function Footer() {
           <img src={gpt3Logo} alt="gpt3_logo" />
           <p>Department of CSA, OUTR <br /> All Rights Reserved</p>
         </div>
-        <div className="gpt3__footer-links_div">
+        {/* <div className="gpt3__footer-links_div">
           <h4>Links</h4>
           <p>Overons</p>
           <p>Social Media</p>
@@ -54,12 +54,12 @@ function Footer() {
           <p>Terms & Conditions </p>
           <p>Privacy Policy</p>
           <p>Contact</p>
-        </div>
+        </div> */}
         <div className="gpt3__footer-links_div">
           <h4>Get in touch</h4>
           <p>Department of CSA, OUTR <br /> All Rights Reserved</p>
           <p>085-132567</p>
-          <p>info@payme.net</p>
+          <p>csa@outr.net</p>
         </div>
       </div>
       <div className="gpt3__footer-copyright">

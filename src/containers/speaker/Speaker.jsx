@@ -1,6 +1,7 @@
 import React from "react";
 import Article from "../../components/article/Article";
 import "./speaker.css";
+import {blog01,blog02} from "./imports"
 
 function Speaker() {
   return (
@@ -10,9 +11,9 @@ function Speaker() {
       </div>
       <div className="gpt3__blog-container">
         <div className="gpt3__blog-container_groupC">
-          <Article imgUrl={{}} date="Speaker-info" text="Speaker1" />
-          <Article imgUrl={{}} date="Speaker-info" text="Speaker2" />
-          <Article imgUrl={{}} date="Speaker-info" text="Speaker3" />
+          <Article imgUrl={blog01} date="New Jersey, USA" text="Prof. Sarang Mahatwo" />
+          <Article imgUrl={blog02} date="Aurel Vlaicu University of Arad, Romania" text="Prof. Valentina E Balas" />
+          
         </div>
       </div>
     </div>
