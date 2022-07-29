@@ -78,7 +78,7 @@ function StepC() {
                 Liverpool Hope  University, UK
                 </td>
                 <td style={{ textAlign: "center", width: "15%" }}>
-                  Design Department
+                  
                 </td>
                 
               </tr>
