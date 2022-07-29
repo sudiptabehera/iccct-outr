@@ -6,7 +6,6 @@ import FinanceChair from "./FinanceChair";
 import PublicityChair from "./PublicityChair"
 import AdvisoryCommittee from "./AdvisoryCommittee"
 import InternationalCommittee from "./InternationalCommitee"
-import OrganisingCommittee from "./OrganisingCommittee"
 import ProgramCommittee from "./ProgramCommittee"
 import Queries from "./Queries"
 
@@ -172,29 +171,7 @@ function Committee() {
                 International&nbsp;Technical&nbsp;Program&nbsp;Committee
               </button>
             </li>
-            <li>
-              <button
-                onClick={(e) => {
-                  e.preventDefault();
-                  updateComponent(<OrganisingCommittee />);
-                  setActive(e.target.innerHTML);
-                }}
-                style={
-                  isActive === "Organising&nbsp;Committee"
-                    ? {
-                        background:
-                          "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)",
-                          color:"black",
-                          
-                      }
-                    : {
-                      
-                    }
-                }
-              >
-                Organising&nbsp;Committee
-              </button>
-            </li>
+            
             <li>
               <button
                 onClick={(e) => {

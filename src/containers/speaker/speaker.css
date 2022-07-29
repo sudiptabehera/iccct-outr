@@ -34,14 +34,14 @@
 }
 
 .gpt3__blog-container_groupC {
-    flex:1;
+    flex:0.8;
 
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
 }
 .gpt3__blog-container_groupB {
-    flex:1;
+    flex:0.8;
 
     display:grid;
     grid-template-columns: repeat(3, 0.5fr);

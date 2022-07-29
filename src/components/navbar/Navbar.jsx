@@ -16,8 +16,10 @@ function Navbar() {
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
           <p><a href="#about">About</a></p>
+          <p><a href="#speaker">Speaker</a></p>
           <p><a href="#schedules">Schedules</a></p>
           <p><a href="#registration">Registration</a></p>
+          <p><a href="#callforpapers">Call for Papers</a></p>
           <p><a href="#submission">Submission</a></p>
           <p><a href="#members">Members</a></p>
           <p><a href="#contact">Contact</a></p>
@@ -32,8 +34,10 @@ function Navbar() {
           <div className="gpt3__navbar-menu_container-links">
           <p><a href="#home">Home</a></p>
           <p><a href="#about">About</a></p>
+          <p><a href="#speaker">Speaker</a></p>
           <p><a href="#schedules">Schedules</a></p>
           <p><a href="#registration">Registration</a></p>
+          <p><a href="#callforpapers">Call for Papers</a></p>
           <p><a href="#submission">Submission</a></p>
           <p><a href="#members">Members</a></p>
           <p><a href="#contact">Contact</a></p>

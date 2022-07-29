@@ -3,7 +3,7 @@ import React from "react";
 function PCommittee() {
   return (
     <div>
-      <b>Organising Committee</b>
+      <b>Program Committee</b>
       <br></br>
       <br />
       <ul>

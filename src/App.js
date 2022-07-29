@@ -37,7 +37,7 @@ function App() {
       <Features />
       <Registration />
       <Submissions />
-      <CTA />
+      <CTA  />
       <Committee></Committee>
 
       {/* <Blog /> */}

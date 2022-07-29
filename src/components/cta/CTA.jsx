@@ -3,8 +3,8 @@ import './cta.css';
 
 function CTA() {
   return (
-    <div className="gpt3__cta">
-      <div className="gpt3__cta-content">
+    <div className="gpt3__cta"  >
+      <div className="gpt3__cta-content" >
         {/* <p>Click the button to Submit Papers</p> */}
         <h3>Click the button to Submit Papers</h3>
       </div>
