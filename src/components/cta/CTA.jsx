@@ -9,7 +9,7 @@ function CTA() {
         <h3>Click the button to Submit Papers</h3>
       </div>
       <div className="gpt3__cta-btn">
-        <a href="https://easychair.org/my/conference?conf=icmib2021">
+        <a href="https://easychair.org/conferences/?conf=iccct2022">
           <button type="button">Submit Now</button>
         </a>
       </div>
