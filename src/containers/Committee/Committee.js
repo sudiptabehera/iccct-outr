@@ -3,6 +3,7 @@ import Patron from "./Patron";
 import Convener from "./Convener";
 import OrganisingChair from "./OganisingChair";
 import FinanceChair from "./FinanceChair";
+import GeneralChair from "./GeneralChair";
 import PublicityChair from "./PublicityChair"
 import AdvisoryCommittee from "./AdvisoryCommittee"
 import InternationalCommittee from "./InternationalCommitee"
@@ -66,6 +67,26 @@ function Committee() {
                 }
               >
                 Convener
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  updateComponent(<GeneralChair/>);
+                  setActive(e.target.innerHTML);
+                }}
+                style={
+                  isActive === "General&nbsp;Chair"
+                    ? {
+                        background:
+                          "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)",
+                          color:"black",
+                      }
+                    : {}
+                }
+              >
+                General&nbsp;Chair
               </button>
             </li>
             <li>
