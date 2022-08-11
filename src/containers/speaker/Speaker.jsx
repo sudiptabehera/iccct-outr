@@ -11,7 +11,7 @@ function Speaker() {
       </div>
       <div className="gpt3__blog-container">
         <div className="gpt3__blog-container_groupB">
-          <Article imgUrl={blog01} date="New Jersey, USA" text="Prof. Sarang Mahatwo" />
+          <Article imgUrl={blog01} date="New Jersey, USA" text=" Sarang Mahatwo" />
           <Article imgUrl={blog02} date="Aurel Vlaicu University of Arad, Romania" text="Prof. Valentina E Balas" />
           
         </div>

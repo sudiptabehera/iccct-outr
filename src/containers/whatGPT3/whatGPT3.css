@@ -67,14 +67,14 @@
     flex-wrap: wrap;
     flex-direction: row;
 
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 .gpt3__whatgpt3-container2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 /* Customizing feature component as per needs */
 .gpt3__whatgpt3-container .gpt3__features-container__feature {
