@@ -1,10 +1,10 @@
 import React from "react";
 import "./internationalcommittee.css";
-function StepC() {
+function InternationalCommittee() {
   return (
     <div>
-      <section>
-        <div class="tbl-header">
+      <section className="table">
+        <div className="tbl-header">
           <table cellpadding="0" cellspacing="0" border="0">
             <thead>
               <tr>
@@ -16,7 +16,7 @@ function StepC() {
             </thead>
           </table>
         </div>
-        <div class="tbl-content" style={{ height: "31rem" }}>
+        <div className="tbl-content" style={{ height: "31rem" }}>
           <table cellpadding="0" cellspacing="0" border="0">
             <tbody>
               <tr>
@@ -237,4 +237,4 @@ function StepC() {
   );
 }
 
-export default StepC;
+export default InternationalCommittee;
