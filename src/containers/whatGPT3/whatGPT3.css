@@ -52,7 +52,15 @@
     font-family: var(--font-family);
     max-width: 510px;
 }
+ h3 {
 
+      margin: 0rem 0 0rem;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 200;
+    font-family: var(--font-family);
+    color: aliceblue;
+  }
 .gpt3__whatgpt3-heading p {
     font-family: var(--font-family);
     font-weight: 500;

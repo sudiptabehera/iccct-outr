@@ -1,110 +1,42 @@
-import React, { useState } from "react";
-import StepA from "./StepA";
-import StepB from "./StepB";
-import StepC from "./StepC";
-import StepD from "./StepD";
-import "./submission.css";
+import React from "react";
+import Feature from "../../components/feature/Feature";
+// import './whatGPT3.css';
 
-function Submissions() {
-  const [component, updateComponent] = useState(<StepA />);
-  const [isActive, setActive] = useState("Step&nbsp;A");
-
+function WhatGPT3() {
   return (
-    <div className="submissions section__padding" style={{ color: "white" }} id="submission">
-      <div className="heading">
-        <h1 className="gradient__text">SUBMISSION</h1>
-        <p>
-        1st International Conference on Communication and Computational
-            Techniques (ICCCT-2022)
-        </p>
+    <div className="gpt3__whatgpt3 section__margin" id="">
+      <div className="gpt3__whatgpt3-heading">
+        <h1 className="gradient__text">Submission</h1>
       </div>
-
-      <div className="submissions-container">
-        <div className="left ">
-          <ul>
-            <li>
-              <button
-                onClick={(e) => {
-                  e.preventDefault();
-                  updateComponent(<StepA />);
-                  setActive(e.target.innerHTML);
-                }}
-                style={
-                  isActive === "Step&nbsp;A"
-                    ? {
-                        background:
-                          "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)",
-                      }
-                    : {}
-                }
-              >
-                Step&nbsp;A
-              </button>
-            </li>
-            <li>
-              <button
-                onClick={(e) => {
-                  e.preventDefault();
-                  updateComponent(<StepB />);
-                  setActive(e.target.innerHTML);
-                }}
-                style={
-                  isActive === "Step&nbsp;B"
-                    ? {
-                        background:
-                          "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)",
-                      }
-                    : {}
-                }
-              >
-                Step&nbsp;B
-              </button>
-            </li>
-            <li>
-              <button
-                onClick={(e) => {
-                  e.preventDefault();
-                  updateComponent(<StepC />);
-                  setActive(e.target.innerHTML);
-                }}
-                style={
-                  isActive === "Step&nbsp;C"
-                    ? {
-                        background:
-                          "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)",
-                      }
-                    : {}
-                }
-              >
-                Step&nbsp;C
-              </button>
-            </li>
-            <li>
-              <button
-                onClick={(e) => {
-                  e.preventDefault();
-                  updateComponent(<StepD />);
-                  setActive(e.target.innerHTML);
-                }}
-                style={
-                  isActive === "Step&nbsp;D"
-                    ? {
-                        background:
-                          "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)",
-                      }
-                    : {}
-                }
-              >
-                Step&nbsp;D
-              </button>
-            </li>
-          </ul>
+      <div className="gpt3__whatgpt3-heading">
+        <p>
+          Original contributions from researchers describing their original,
+          unpublished, research contribution which is not currently under review
+          by another conference or journal and addressing state-of-the-art
+          research are invited to share their work in all areas of ICCCT 2022
+          but not limited to the conference tracks.
+        </p>
+        <br />
+        <p>Conference Sub Themes and Tracks:</p>
+      </div>
+      <div className="gpt3__whatgpt3-container2">
+        <div className="gpt3__whatgpt3-container">
+        <h3>The submitted manuscripts must be followed the following Manuscript format Adhere to page size (A4 : 
+8.27″ x 11.69″), page margin size (top:0.7″, bottom:0.7″, left/inside: 0.67″, right/outside: 0.56″), line spacing 
+(‘single’), and font style (‘Times New Roman’), font sizes (Abstract and Reference: 12pt, Text body: 10pt), 
+Subsection: should be consecutively numbered, Table and figure caption: 09pt – no bold – no italic, Figures 
+should be in the proper size, less than 16 cm in width and 24 cm in height without background, for color
+figures the quality with the resolution of at least 300dpi, and should be submitted through the EasyChair
+(above mentioned link) as Microsoft Word. The manuscripts should be no longer than 14 pages and not less 
+than 600 words. Submitted papers should not be previously published in or be under consideration for 
+publication in another conference or journal. Paper titles and/or author names cannot be changed and/or added 
+to the papers once papers are submitted. The Program Committee reserves the right to not review papers that 
+either exceed the length specification or have been submitted or published elsewhere. Submissions must 
+include a title, abstract, keywords, author(s) and affiliation(s) with postal and e-mail addresses. 
+</h3>
         </div>
-
-        <div className="right ">{component}</div>
       </div>
     </div>
   );
 }
-
-export default Submissions;
+export default WhatGPT3;

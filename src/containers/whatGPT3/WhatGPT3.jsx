@@ -15,26 +15,88 @@ function WhatGPT3() {
       </div>
       <div className="gpt3__whatgpt3-container2">
         <div className="gpt3__whatgpt3-container">
-          <Feature title="Internet of Things" text="The advent in IoT is well-known to all of us. Nowadays near about all smart devices use IoT technology at the backend. This track focuses on the following but are not limited to: Wireless Sensor Networks, Communication in Wireless Sensor Networks, Connectivity and Networking Issues, Signal processing in IoT, Security and Privacy issues, IoT data analytics and services, Innovations in IoT, Virtualization in IoT, IoT and Cloud/Edge integration, Use-cases and deployment." />
-          <Feature title="Cloud Computing Paradigms" text="The exclusive use of cloud computing paradigms attracts many researchers to find novel solutions to the existing problems in this domain. This track includes the following but are not limited to: Mobility and Virtualization in Cloud, Cloud Infrastructure and Paradigms, Storage and Data Management in Cloud, Service discovery and availability in Cloud, Cloud Service Enforcement and Service Level Agreement (SLA), Edge/Fog Computing, Networking in the Cloud platform" />
-          <Feature title="GIS and Remote Sensing" text="Nowadays, there is a buzzword called Remote Sensing. This domain is so rapidly growing due to its extensive application areas, it attracts researchers to use it. Thu, this track includes the following but are not limited to: Regionalization and Land-Use Land Cover, UAV-Based Remote Sensing Techniques, Geospatial Data Analytics, Health GIS, Cloud GIS and Spatial Data Infrastructure, Time Series Analysis with High Spatial Resolution Imagery." />
+          <Feature title="Internet of Things" text="" />
+          <Feature title="Cloud Computing Paradigms" text="" />
+          <Feature title=" Quantum Information Processing" text="" />
+          <Feature title=" Blockchain Technology" text="" />
         </div>
       </div>
       <div className="gpt3__whatgpt3-container2">
         <div className="gpt3__whatgpt3-container">
-          <Feature title=" Quantum Information Processing" text="As the present world is going towards the futuristic direction of quantum computing, this domain is growing vast day-by-day. This track includes the following topics but are not limited to: Quantum cryptography and communications, Quantum Machine Learning Algorithms, Quantum Imaging and Sensing, Spin-based Quantum Information Processing, Quantum error correction and fault tolerance, Quantum complexity, Quantum machine learning algorithms based on Grover search." />
-          <Feature title="Wireless Communication and Signal Processing" text="This track is focusing on the following topics but are not limited to: Cognitive Radio Systems, Smart Antenna Technology, Communication in Complex Environments, Broadband Wireless Communication, 3GPP, LTE, LTE-A, Secure and Cooperative Communication, Multimedia Broadcast and Multicast Services, Wireless System Optimization and Coding, Mobility Management and Locality issues, Power Cognitive Communication, MIMO, WLAN, WANET, WiMax, MANET, and VANET Technologies." />
-          <Feature title="Computational Intelligence" text="This track includes the recent topics as follows but is not limited to: Cognitive and Computational Foundations of Brain Science, Human Information Processing Systems, Brain-Machine Intelligence and Brain-Inspired Computing, Optimization techniques, System modeling and simulation fuzzy system, Evolutionary computational methods, Bayesian learning, Hybrid intelligent systems, Big-data, Data mining, Robotics & Computer Vision, Machine Learning Algorithms and Ensembling." />
+        <Feature title="Machine-Learning and Artificial Intelligence" text="" />
+          <Feature title="AI and Big Data for Intelligent System" text="" />
+          <Feature title=" Natural Language Processing" text="" />
+          <Feature title=" Mobile Edge and Fog Computing Systems" text="" />
         </div>
       </div>
       <div className="gpt3__whatgpt3-container2">
         <div className="gpt3__whatgpt3-container">
-          <Feature title="  Cryptography and Information Security" text="This track includes the recent topics as follows but is not limited to: Cyber Warfare Trends and Approaches, Social engineering, Algorithms in biometrics, Enterprise Systems Security, Formal Methods Application in Security, SCADA and Embedded systems security, Distributed and Pervasive Systems Security, Secure Software Development, Situational Awareness Assessments, Network Situational Awareness, National and Critical Infrastructure Security Issues." />
-          <Feature title="Blockchain Technology" text="Brain Computer Interface, Biosignal Processing, Biosensors, Wearable Micro and Nano sensors, Neural Engineering, Modeling and Simulation of Biomedical Processes, Smart Implant, Telemedicine, Telesurgery, Pulmonary and Cardiovascular Engineering, Healthcare Big Data Analytics, Biomedical Robotics, Rehabilitation Engineering, Gene Expression Engineering" />
-          <Feature title="Natural Language Processing" text="The scope of this track includes but are not limited to: Named Entity Recognition, Speech and Audio Processing, Optical Character Recognition, Latent Dirichlet Allocation, Spoken Language Processing, Computational Models of Speech and Language, Psychology and Neuropsychology of language." />
+        <Feature title="Internet of Things" text="" />
+          <Feature title="Smart Grid Computing Models" text="" />
+          <Feature title=" Cognitive Computing and Communications" text="" />
+          <Feature title=" Multiple Access in Machine-to-Machine 
+Communication" text="" />
+        </div>
+      </div>
+      <div className="gpt3__whatgpt3-container2">
+        <div className="gpt3__whatgpt3-container">
+        <Feature title="Computational Intelligence" text="" />
+          <Feature title="Digital Twin for Wireless Networks" text="" />
+          <Feature title=" Quantum Communications and Networking" text="" />
+          <Feature title=" Cryptography and Information Security" text="" />
+        </div>
+      </div>
+     
+      <div className="gpt3__whatgpt3-container2">
+        <div className="gpt3__whatgpt3-container">
+        <Feature title="Wireless PHY and MAC layers for 5G and Beyond: design, analysis, and optimization" text="" />
+          <Feature title="5G Multitenant Networks and End-to-End Network slicing" text="" />
+          <Feature title="AI and Big Data for Intelligent Beyond 5G Networks" text="" />
+          <Feature title="Backhaul/fronthaul for multi-tier ultra-dense heterogeneous small cell networks" text="" />
+        </div>
+      </div>
+      <div className="gpt3__whatgpt3-container2">
+        <div className="gpt3__whatgpt3-container">
+        <Feature title="Cognitive and Cooperative Communications" text="" />
+          <Feature title="Blockchain for Beyond 5G Networks" text="" />
+          <Feature title="Context and location-aware wireless services and applications" text="" />
+          <Feature title="Cross-layer design for massive MIMO and multiuser MIMO networks" text="" />
+        </div>
+      </div>
+      <div className="gpt3__whatgpt3-container2">
+        <div className="gpt3__whatgpt3-container">
+        <Feature title="Quantum Communications and Networking" text="" />
+          <Feature title="Network Function Virtualization (NFV) and Software-Defined Networking (SDN) Architectures and Networks" text="" />
+          <Feature title="Efficient integration of multiple novel 5G air interfaces" text="" />
+          <Feature title="Energy efficiency and Energy harvesting in wireless networks" text="" />
+        </div>
+      </div>
+      <div className="gpt3__whatgpt3-container2">
+        <div className="gpt3__whatgpt3-container">
+        <Feature title="Mobile big data and network data analytics" text="" />
+          <Feature title="Mobile Social Networks" text="" />
+          <Feature title="Mobile Crowd Sensing" text="" />
+          <Feature title="Trust, Security and Privacy of B5G networks" text="" />
+        </div>
+      </div>
+      <div className="gpt3__whatgpt3-container2">
+        <div className="gpt3__whatgpt3-container">
+        <Feature title="Mobility, location, and handoff management" text="" />
+          <Feature title="Multimedia QoS, and traffic management" text="" />
+          <Feature title="Multiple access in machine-to-machine communication" text="" />
+          <Feature title="Optical Communications & Fiber Optics for 5G" text="" />
+        </div>
+      </div>
+      <div className="gpt3__whatgpt3-container2">
+        <div className="gpt3__whatgpt3-container">
+        <Feature title="Smart Grids: Communication, Modeling and Design Testbed, experiments and prototype implementations of systems & Services for B5G" text="" />
+          <Feature title=" Ultra low-latency and ultra high-reliability B5G communications" text="" />
+          <Feature title="Validation of Simulation Models with Measurements" text="" />
+          <Feature title=" Wireless body area networks and e-health services" text="" />
         </div>
       </div>
     </div>
+   
   );
 }
 export default WhatGPT3;
