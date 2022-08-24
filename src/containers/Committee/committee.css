@@ -3,7 +3,6 @@ div.heading {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
   margin: 2rem 0 2rem;
 }
 
@@ -24,40 +23,42 @@ div.heading p {
   cursor: pointer;
 }
 
-div.submissions-container {
+div.committee-container {
   display: flex;
+  flex-direction: column;
 }
 
-div.submissions-container div {
-  padding: 0 2rem;
+div.committee-container div.committee-section {
+  padding: 1rem 0;
 }
 
-div.submissions-container div.left {
-  margin: 0 1rem;
-}
-
-div.submissions-container div.left ul {
-  list-style: none;
-}
-
-div.submissions-container div.left button {
-  padding: 0.71rem 2.5rem;
-  margin: 0.3rem 0;
-  background: var(--color-bg);
-  color: #fff;
+div.committee-container div.committee-section div.committee-members-card{
+  background:var(--color-footer);
+  border-radius: 10px;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
   font-family: var(--font-family);
-  font-size: 1.2rem;
-  border: 1px solid #fff;
-  cursor: pointer;
-  width: 18rem;
-}
 
-div.submissions-container div.right {
-  background: var(--color-footer);
-  padding: 2rem;
-  font-family: var(--font-family);
 }
 
 .gradient_btn {
   background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
+}
+
+div.committee-heading h2{
+  font-family: var(--font-family);
+  position: relative;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+div.committee-heading h2::before {
+  content: "";
+  position: absolute;
+  top: 110%;
+  width: 40%;
+  left: 0;
+  height: 5px;
+  border-radius: 2px;
+  background: var(--gradient-text);
 }

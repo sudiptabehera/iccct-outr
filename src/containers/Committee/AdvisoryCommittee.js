@@ -1,29 +1,91 @@
-import React from 'react';
+import React from "react";
 
-function StepA() {
+const advisoryCommitteeData = [
+  {
+    name: "Prof. S. Behera",
+    department: "Electrical and Instrumentation Engineer",
+    position: "HOD",
+    university: "OUTR",
+  },
+  {
+    name: "Prof. A.Barisal",
+    department: "Electrical Engineering",
+    position: "HOD",
+    university: "OUTR",
+  },
+  {
+    name: "Prof. D. P. Satpathy",
+    department: "Civil Engineering",
+    position: "HOD",
+    university: "OUTR",
+  },
+  {
+    name: "Prof. R. Mallick",
+    department: "Mechanical Engineering",
+    position: "HOD",
+    university: "OUTR",
+  },
+  {
+    name: "Prof.R.K.Pradhan",
+    department: "Biotechnology",
+    position: "HOD",
+    university: "OUTR",
+  },
+  {
+    name: "Prof.A.K.Dash",
+    department: "Fashion Technology",
+    position: "HOD",
+    university: "OUTR",
+  },
+  {
+    name: "Prof. B.P.Dash",
+    department: "Textile Engineering",
+    position: "HOD",
+    university: "OUTR",
+  },
+  {
+    name: "Prof. N.Acharya",
+    department: "Chemistry",
+    position: "HOD",
+    university: "OUTR",
+  },
+];
+
+function AdvisoryCommittee() {
   return (
     <div>
-    <b>Advisory Committee</b>
-      <br></br>
-      <br/><ul>
-     <li>Prof. S. Behera ,HOD, EI&E  , OUTR<br/></li> 
-<li>Prof. A.Barisal ,HOD,EE,OUTR</li>
-<li>
-Prof. D. P. Satpathy, HOD ,CE,OUTR
-</li>
-<li> Prof. R. Mallick,HOD, ME, OUTR
-
-</li>
-
-<li>  Prof.R.K.Pradhan, HOD,BT,OUTR</li>
-<li>  Prof.A.K.Dash,HOD,FAT,OUTR</li>
-<li>  Prof. B.P.Dash,HOD,TE,OUTR</li>
-<li>Prof. N.Acharya,HOD,Chem,OUTR</li>
-{/* <li>Prof. B.Ojha, HOD, Phy, OUTR</li>
-<li>Prof. G.Pradhan,HOD,M&H,OUTR</li> */}
-</ul>
+      <section className="table">
+        <div className="tbl-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th style={{ width: "10%", textAlign: "left" }}>Sl.No</th>
+                <th style={{ width: "20%" }}>NAME</th>
+                <th style={{ width: "25%" }}>Department</th>
+                {/* <th style={{ width: "15%" }}>Position</th>
+                <th style={{ width: "15%" }}>University</th> */}
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div className="tbl-content" >
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              {advisoryCommitteeData.map((item, index) => (
+                <tr key={index+1}>
+                  <td style={{ width: "10%", textAlign: "left" }}>{index+1}</td>
+                  <td style={{ width: "20%" }}>{item.name}</td>
+                  <td style={{ width: "25%" }}>{item.department}</td>
+                  {/* <td style={{ width: "15%" }}>{item.position}</td>
+                  <td style={{ width: "15%" }}>{item.university}</td> */}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
     </div>
   );
 }
 
-export default StepA;
+export default AdvisoryCommittee;

@@ -15,11 +15,18 @@ function Header() {
           </b>
           <br />
           <br />
-          Department of CSA, OUTR Bhubaneswar (An Autonomous Institute of Govt.
-          of ODISHA) is going to organize 1st International Conference on
-          Communication and Computational Techniques on 16th and 17th December
-          2022. The extended effort version of selected papers will be published
-          in SCOPUS, Indexed, Google Scholar, and Springer Link
+          ICCCT aims to bring together leading academic 
+scientists, researchers and research scholars to 
+exchange and share their experiences and research 
+results on all aspects of Communication and 
+Computational Techniques.
+It also provides a premier interdisciplinary platform 
+for researchers, practitioners and educators to 
+present and discuss the most recent innovations, 
+trends, and concerns as well as practical challenges 
+encountered and solutions adopted in the fields of 
+Computational Techniques and Artificial 
+Intelligence
         </p>
         <div className="gpt3__header-content__input">
           <input type="email" placeholder="Your Email Address" />

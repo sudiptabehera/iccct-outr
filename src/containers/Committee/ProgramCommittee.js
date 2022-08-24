@@ -1,28 +1,98 @@
 import React from "react";
 
-function PCommittee() {
+const programCommitteeData = [
+  {
+    name: "Prof. Poonam Singh",
+    university: "NIT",
+    place: "Rourkela",
+  },
+  {
+    name: "Prof. Saraju P. Mohanty",
+    university: "UNT",
+    place: "Denton",
+  },
+  {
+    name: "Prof. Sriram Chellappan",
+    university: "USF",
+    place: "Florida",
+  },
+  {
+    name: "Prof. Sarojananda Mishra",
+    university: "IGIT",
+    place: "Sarang",
+  },
+  {
+    name: "Prof. M S Bhatt",
+    university: "NIT",
+    place: "Surtkal",
+  },
+  {
+    name: "Dr. Albert Sunny",
+    university: "IIT",
+    place: "Palakkad",
+  },
+  {
+    name: "Dr. Niladri Bihari Puhan",
+    university: "IIT",
+    place: "Bhubaneswar",
+  },
+  {
+    name: "Dr. Manoranjan Satpathy",
+    university: "IIT",
+    place: "Bhubaneswar",
+  },
+  {
+    name: "Dr. Barathram. Ramkumar",
+    university: "IIT",
+    place: "Bhubaneswar",
+  },
+  {
+    name: "Dr. Soumya Prakash Dash",
+    university: "IIT",
+    place: "Bhubaneswar",
+  },
+  {
+    name: "Prof. Debasish Jena",
+    university: "IIIT",
+    place: "Bhubaneswar",
+  },
+];
+
+function ProgramCommittee() {
   return (
     <div>
-      <b>Program Committee</b>
-      <br></br>
-      <br />
-      <ul>
-      
-        <li>Prof. Poonam Singh, NIT, Rourkela</li>
-        <li> Prof. Saraju P. Mohanty, UNT, Denton</li>
-        <li>Prof. Sriram Chellappan, USF, Florida</li>
-        <li>Prof. Sarojananda Mishra, IGIT, Sarang</li>
-        <li>Prof. M S Bhatt, NIT, Surtkal</li>
-        <li>Dr. Albert Sunny, IIT, Palakkad</li>
-        <li>Dr. Niladri Bihari Puhan, IIT, Bhubaneswar</li>
-        <li>Dr. Manoranjan Satpathy, IIT, Bhubaneswar</li>
-        <li>Dr. Barathram. Ramkumar, IIT, Bhubaneswar</li>
-        <li>Dr. Soumya Prakash Dash, IIT, Bhubaneswar</li>
-        <li>Prof. Debasish Jena, IIIT, Bhubaneswar</li>
-        
-      </ul>
+      <section className="table">
+        <div className="tbl-header">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <thead>
+              <tr>
+                <th style={{ width: "10%" }}>Sl.No</th>
+                <th style={{ width: "25%" }}>NAME</th>
+                <th style={{ width: "20%" }}>UNIVERSITY /COLLEGE</th>
+                <th style={{ width: "15%" }}>PLACE</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+        <div className="tbl-content">
+          <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+              {programCommitteeData.map((item, index) => (
+                <tr key={index + 1}>
+                  <td style={{ width: "10%" }}>
+                    {index + 1}
+                  </td>
+                  <td style={{ width: "25%" }}>{item.name}</td>
+                  <td style={{ width: "20%" }}>{item.university}</td>
+                  <td style={{ width: "15%" }}>{item.place}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
     </div>
   );
 }
 
-export default PCommittee;
+export default ProgramCommittee;
