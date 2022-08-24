@@ -69,7 +69,7 @@ function ProgramCommittee() {
                 <th style={{ width: "10%" }}>Sl.No</th>
                 <th style={{ width: "25%" }}>NAME</th>
                 <th style={{ width: "20%" }}>UNIVERSITY /COLLEGE</th>
-                <th style={{ width: "15%" }}>DEPT</th>
+                <th style={{ width: "15%" }}>PLACE</th>
               </tr>
             </thead>
           </table>

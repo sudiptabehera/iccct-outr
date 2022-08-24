@@ -62,8 +62,8 @@ function AdvisoryCommittee() {
                 <th style={{ width: "10%", textAlign: "left" }}>Sl.No</th>
                 <th style={{ width: "20%" }}>NAME</th>
                 <th style={{ width: "25%" }}>Department</th>
-                <th style={{ width: "15%" }}>Position</th>
-                <th style={{ width: "15%" }}>University</th>
+                {/* <th style={{ width: "15%" }}>Position</th>
+                <th style={{ width: "15%" }}>University</th> */}
               </tr>
             </thead>
           </table>
@@ -76,8 +76,8 @@ function AdvisoryCommittee() {
                   <td style={{ width: "10%", textAlign: "left" }}>{index+1}</td>
                   <td style={{ width: "20%" }}>{item.name}</td>
                   <td style={{ width: "25%" }}>{item.department}</td>
-                  <td style={{ width: "15%" }}>{item.position}</td>
-                  <td style={{ width: "15%" }}>{item.university}</td>
+                  {/* <td style={{ width: "15%" }}>{item.position}</td>
+                  <td style={{ width: "15%" }}>{item.university}</td> */}
                 </tr>
               ))}
             </tbody>

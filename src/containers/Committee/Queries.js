@@ -2,7 +2,7 @@ import React from "react";
 
 function StepC() {
   return (
-    <div>
+    <div id='sponsor'>
       <b>For Queries contact </b>
       
       <br></br>
@@ -10,9 +10,9 @@ function StepC() {
       <ul>
         <li>Dr. Sanjit Kumar Dash , Dept. of IT , OUTR</li>
         <br></br>Ph. No:-91-9437990892
-        <br></br>Mail-id:-
+        <br ></br>Mail-id:-
       </ul>
-    </div>
+    </div >
   );
 }
 

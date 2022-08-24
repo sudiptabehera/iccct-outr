@@ -31,7 +31,7 @@ function App() {
       </div>
       <Countdown />
       <Possibility />
-      <Brand />
+      
       <WhatGPT3 />
       <Speaker />
       <Features />
@@ -39,7 +39,7 @@ function App() {
       <Submissions />
       <CTA  />
       <Committee></Committee>
-
+      <Brand />
       {/* <Blog /> */}
       <ContactUs></ContactUs>
       <Footer />

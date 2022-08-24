@@ -5,15 +5,24 @@ import FlipCard from './FlipCard';
 
 function Brand() {
   return (
+    <div >
+    <div className="gpt3__possibility section__padding1" style={{padding:"0rem 6rem"}} >
+    <div className="gpt3__possibility-content">
+      
+        <h1 className="gradient__text">Sponsors</h1>
+        </div>
+    </div>
     <div className="gpt3__brand section__padding">
       
       <div>
-        <FlipCard front={google} back="lorem text lorem lorem ipsum helleore  lh aslh a  ahal"/>
-        <FlipCard front={slack} back="lorem text lorem lorem ipsum helleore  lh aslh a  ahal"/>
-        <FlipCard front={atlassian} back="lorem text lorem lorem ipsum helleore  lh aslh a  ahal"/>
-        <FlipCard front={dropbox} back="lorem text lorem lorem ipsum helleore  lh aslh a  ahal"/>
-        <FlipCard front={shopify} back="lorem text lorem lorem ipsum helleore  lh aslh a  ahal"/>
+        <FlipCard front={""} back="To be intimated"/>
+        <FlipCard front={""} back="To be intimated"/>
+        <FlipCard front={""} back="To be intimated"/>
+        <FlipCard front={""} back="To be intimated"/>
+        <FlipCard front={""} back="To be intimated"/>
       </div>
+      
+    </div>
     </div>
   );
 }

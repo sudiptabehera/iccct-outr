@@ -23,15 +23,16 @@ function Committee() {
         </p>
       </div>
 
-      <div className="committee-container">
+      <div className="committee-container" >
         {CommitteeData.map((data) => (
           <div className="committee-section">
             <CommitteeHeading headingText={data.heading} />
             <div className="committee-members-card">
-              <ul>
+              <ul style={{letterSpacing:" 1px"}}><b>
                 {data.namelist.map((names) => (
                   <li>{names}</li>
                 ))}
+                </b>
               </ul>
             </div>
           </div>
@@ -58,7 +59,7 @@ function Committee() {
                 Dr. Sanjit Kumar Dash , Dept. of IT , OUTR
                 </p>
                 <p>Ph. No:-91-9437990892</p>
-                <p>Mail-id:-</p>
+                <p id='sponsor'>Mail-id:- skdash@outr.ac.in</p>
               </li>
             </ul>
           </div>

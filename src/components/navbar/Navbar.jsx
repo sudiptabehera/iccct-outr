@@ -10,18 +10,21 @@ function Navbar() {
   return (
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links_logo">
-        <img src={iccct} style={{ height: '2.5rem', margin: '3px' }} />
+      <a href="#home"><img src={iccct} style={{ height: '2.5rem', margin: '3px' }} /></a>
       </div>
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_container">
-          <p><a href="#home">Home</a></p>
+          {/* <p><a href="#home">Home</a></p> */}
           <p><a href="#about">About</a></p>
+          <p><a href="#scope">Scope</a></p>
           <p><a href="#speaker">Speaker</a></p>
-          <p><a href="#schedules">Schedules</a></p>
-          <p><a href="#registration">Registration</a></p>
-          <p><a href="#callforpapers">Call for Papers</a></p>
-          <p><a href="#submission">Submission</a></p>
+          <p><a href="#schedules">Schedule</a></p>
+          {/* <p><a href="#registration">Registration</a></p> */}
+          <p><a href="#registration">Call for Papers</a></p>
+          {/* <p><a href="#submission">Submission</a></p> */}
           <p><a href="#members">Members</a></p>
+          <p><a href="#sponsor">Sponsor</a></p>
+          
           <p><a href="#contact">Contact</a></p>
         </div>
       </div>

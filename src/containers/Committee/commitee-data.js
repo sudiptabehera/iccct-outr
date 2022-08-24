@@ -23,14 +23,14 @@ var CommitteeData =  [
         "heading" : "Publicity Chair",
         "namelist": ["Prof. Bijaya  Panigrahi , Dept. of   ,IIT,Delhi", "Dr.Subhasis  Mahapatra,  HOD, Department of  CSE, OUTR, Bhubaneswar"]
     },
-    {
-        "heading" : "Advisory Committee",
-        "namelist": ["Prof. S. Behera ,HOD, EI&E, OUTR", "Prof. A.Barisal ,HOD,EE,OUTR", "Prof. D. P. Satpathy, HOD ,CE,OUTR", "Prof. R. Mallick,HOD, ME, OUTR", "Prof.R.K.Pradhan, HOD,BT,OUTR", "Prof.A.K.Dash,HOD,FAT,OUTR", "Prof. B.P.Dash,HOD,TE,OUTR", "Prof. N.Acharya,HOD,Chem,OUTR"]
-    },
-    {
-        "heading" : "Program Committee",
-        "namelist": ["Prof. Poonam Singh, NIT, Rourkela",  "Prof. Saraju P. Mohanty, UNT, Denton", "Prof. Sriram Chellappan, USF, Florida", "Prof. Sarojananda Mishra, IGIT, Sarang", "Prof. M S Bhatt, NIT, Surtkal", "Dr. Albert Sunny, IIT, Palakkad", "Dr. Niladri Bihari Puhan, IIT, Bhubaneswar", "Dr. Manoranjan Satpathy, IIT, Bhubaneswar", "Dr. Barathram. Ramkumar, IIT, Bhubaneswar", "Dr. Soumya Prakash Dash, IIT, Bhubaneswar", "Prof. Debasish Jena, IIIT, Bhubaneswar" ]
-    }
+    // {
+    //     "heading" : "Advisory Committee",
+    //     "namelist": ["Prof. S. Behera ,HOD, EI&E, OUTR", "Prof. A.Barisal ,HOD,EE,OUTR", "Prof. D. P. Satpathy, HOD ,CE,OUTR", "Prof. R. Mallick,HOD, ME, OUTR", "Prof.R.K.Pradhan, HOD,BT,OUTR", "Prof.A.K.Dash,HOD,FAT,OUTR", "Prof. B.P.Dash,HOD,TE,OUTR", "Prof. N.Acharya,HOD,Chem,OUTR"]
+    // },
+    // {
+    //     "heading" : "Program Committee",
+    //     "namelist": ["Prof. Poonam Singh, NIT, Rourkela",  "Prof. Saraju P. Mohanty, UNT, Denton", "Prof. Sriram Chellappan, USF, Florida", "Prof. Sarojananda Mishra, IGIT, Sarang", "Prof. M S Bhatt, NIT, Surtkal", "Dr. Albert Sunny, IIT, Palakkad", "Dr. Niladri Bihari Puhan, IIT, Bhubaneswar", "Dr. Manoranjan Satpathy, IIT, Bhubaneswar", "Dr. Barathram. Ramkumar, IIT, Bhubaneswar", "Dr. Soumya Prakash Dash, IIT, Bhubaneswar", "Prof. Debasish Jena, IIIT, Bhubaneswar" ]
+    // }
     
 ]
 
