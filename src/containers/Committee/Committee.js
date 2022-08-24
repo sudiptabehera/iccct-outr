@@ -5,6 +5,8 @@ import "./committee.css";
 import CommitteeHeading from "./CommitteeHeading";
 import CommitteeData from "./commitee-data";
 import InternationalCommittee from "./InternationalCommitee";
+import AdvisoryCommittee from "./AdvisoryCommittee";
+import ProgramCommittee from "./ProgramCommittee";
 
 function Committee() {
   return (
@@ -34,6 +36,14 @@ function Committee() {
             </div>
           </div>
         ))}
+        <div className="committee-section">
+          <CommitteeHeading headingText="Advisory Committee" />
+          <AdvisoryCommittee/>
+        </div>
+        <div className="committee-section">
+          <CommitteeHeading headingText="Program Committee" />
+          <ProgramCommittee />
+        </div>
         <div className="committee-section">
           <CommitteeHeading headingText="International Committee" />
           <InternationalCommittee />
