@@ -20,7 +20,7 @@ function Countdown() {
     return () => clearTimeout(timer);
   });
 
-console.log(countDown);
+// console.log(countDown);
   return (
     <div>
     <div className="gpt3__countdown section__padding" >
