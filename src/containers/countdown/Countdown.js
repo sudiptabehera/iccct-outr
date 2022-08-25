@@ -6,7 +6,7 @@ function Countdown() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      const timeDifference = new Date("11/1/2023") - new Date();
+      const timeDifference = new Date("12/16/2022") - new Date();
       if (timeDifference > 0) {
         let timeLeft = {
           days: Math.floor(timeDifference / (1000 * 60 * 60 * 24)),
@@ -20,7 +20,7 @@ function Countdown() {
     return () => clearTimeout(timer);
   });
 
-// console.log(countDown);
+console.log(countDown);
   return (
     <div>
     <div className="gpt3__countdown section__padding" >

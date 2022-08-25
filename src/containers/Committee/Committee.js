@@ -46,7 +46,7 @@ function Committee() {
           <ProgramCommittee />
         </div>
         <div className="committee-section">
-          <CommitteeHeading headingText="International Committee" />
+          <CommitteeHeading headingText="International Advisory Committee" />
           <InternationalCommittee />
         </div>
         <div className="committee-section">
