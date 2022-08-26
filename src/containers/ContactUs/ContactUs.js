@@ -33,7 +33,7 @@ function ContactUs() {
                 Ms. Ananya Dastidar , Dept. of I&E , OUTR
                 <br></br>
                 Ph. No:- 91- 9861230224
-                <br></br>Mail-id:- adastidar@cet.edu.in
+                <br></br>Mail-id:- adastidar@outr.ac.in
               </li>
             </ul>
           </p>

@@ -44,7 +44,7 @@ const advisoryCommitteeData = [
     university: "OUTR",
   },
   {
-    name: "Prof. N.Acharya",
+    name: "Prof. A.N.Acharya",
     department: "Chemistry",
     position: "HOD",
     university: "OUTR",

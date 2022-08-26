@@ -9,11 +9,11 @@ var CommitteeData =  [
     },
     {
         "heading" : "Organising Chair",
-        "namelist": ["Dr.Jibitesh Mishra, Professor & HOD, Department of  CSA, OUTR, Bhubaneswar", "Dr.Ranjan Kumar Dash, Professor & HOD, Department of  IT, OUTR, Bhubaneswar", "Prof. Tapas patra , Dept. of EI&E , OUTR,Bhubanewar"]
+        "namelist": ["Dr.Jibitesh Mishra, Professor & HOD, Department of  CSA, OUTR, Bhubaneswar", "Dr.Ranjan Kumar Dash, Professor & HOD, Department of  IT, OUTR, Bhubaneswar", "Prof. Tapas Kumar Patra , Dept. of E&IE , OUTR,Bhubanewar"]
     },
     {
         "heading" : "Finance Chair",
-        "namelist": ["Prof. Tapas patra , Dept. of EI&E , OUTR,Bhubanewar"]
+        "namelist": ["Prof. Tapas Kumar Patra , Dept. of E&IE , OUTR,Bhubanewar"]
     },
     {
         "heading" : "General Chair",

@@ -13,7 +13,7 @@ function WhatGPT3() {
           Original contributions from researchers describing their original,
           unpublished, research contribution which is not currently under review
           by another conference or journal and addressing state-of-the-art
-          research are invited to share their work in all areas of ICCCT 2022
+          research are invited in all areas of ICCCT 2022
           but not limited to the conference tracks.
         </p>
         <br />
@@ -21,7 +21,7 @@ function WhatGPT3() {
       </div>
       <div className="gpt3__whatgpt3-container2">
         <div className="gpt3__whatgpt3-container">
-        <h3>The submitted manuscripts must be followed the following Manuscript format Adhere to page size (A4 : 
+        <h3>The submitted manuscripts must follow the following Manuscript format Adhere to page size (A4 : 
 8.27″ x 11.69″), page margin size (top:0.7″, bottom:0.7″, left/inside: 0.67″, right/outside: 0.56″), line spacing 
 (‘single’), and font style (‘Times New Roman’), font sizes (Abstract and Reference: 12pt, Text body: 10pt), 
 Subsection: should be consecutively numbered, Table and figure caption: 09pt – no bold – no italic, Figures 
