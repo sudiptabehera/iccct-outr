@@ -25,8 +25,8 @@ for researchers, practitioners and educators to
 present and discuss the most recent innovations, 
 trends, and concerns as well as practical challenges 
 encountered and solutions adopted in the fields of 
-Computational Techniques and Artificial 
-Intelligence
+Computational Techniques and Communication
+
         </p>
         <div className="gpt3__header-content__input">
           <input type="email" placeholder="Your Email Address" />
