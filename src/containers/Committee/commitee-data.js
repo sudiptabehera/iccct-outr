@@ -21,7 +21,7 @@ var CommitteeData =  [
     },
     {
         "heading" : "Publicity Chair",
-        "namelist": ["Prof. Bijaya  Panigrahi , Dept. of   ,IIT,Delhi", "Dr.Subhasis  Mahapatra,  HOD, Department of  CSE, OUTR, Bhubaneswar"]
+        "namelist": ["Prof. Bijaya  Panigrahi, IIT,Delhi", "Dr.Subhasis  Mahapatra,  HOD, Department of  CSE, OUTR, Bhubaneswar"]
     },
     // {
     //     "heading" : "Advisory Committee",

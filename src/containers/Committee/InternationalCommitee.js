@@ -10,7 +10,7 @@ function InternationalCommittee() {
               <tr>
                 <th style={{ width: "10%", textAlign: "left" }}>Sl.No</th>
                 <th style={{ width: "20%" }}>NAME</th>
-                <th style={{ width: "25%" }}>UNIVERSITY /COLLEGE)</th>
+                <th style={{ width: "25%" }}>UNIVERSITY /COLLEGE</th>
                 <th style={{ textAlign: "center", width: "15%" }}>COUNTRY</th>
               </tr>
             </thead>
