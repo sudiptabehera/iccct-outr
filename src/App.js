@@ -36,9 +36,10 @@ function App() {
       <Speaker />
       <Features />
       <Submissions />
+      <CTA  />
       <Registration />
       
-      <CTA  />
+     
       <Committee></Committee>
       <Brand />
       {/* <Blog /> */}
