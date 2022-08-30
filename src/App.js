@@ -35,8 +35,9 @@ function App() {
       <WhatGPT3 />
       <Speaker />
       <Features />
-      <Registration />
       <Submissions />
+      <Registration />
+      
       <CTA  />
       <Committee></Committee>
       <Brand />

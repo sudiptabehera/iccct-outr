@@ -4,21 +4,11 @@ import Feature from "../../components/feature/Feature";
 
 function WhatGPT3() {
   return (
-    <div className="gpt3__whatgpt3 section__margin" id="">
+    <div className="gpt3__whatgpt3 section__margin" id="submission">
       <div className="gpt3__whatgpt3-heading">
-        <h1 className="gradient__text">Submission</h1>
+        <h1 className="gradient__text">Call For Papers</h1>
       </div>
-      <div className="gpt3__whatgpt3-heading">
-        <p>
-          Original contributions from researchers describing their original,
-          unpublished, research contribution which is not currently under review
-          by another conference or journal and addressing state-of-the-art
-          research are invited in all areas of ICCCT 2022
-          but not limited to the conference tracks.
-        </p>
-        <br />
-        <p>Conference Sub Themes and Tracks:</p>
-      </div>
+     
       <div className="gpt3__whatgpt3-container2">
         <div className="gpt3__whatgpt3-container">
         <h3>The submitted manuscripts must follow the following Manuscript format Adhere to page size (A4 : 
@@ -35,6 +25,20 @@ either exceed the length specification or have been submitted or published elsew
 include a title, abstract, keywords, author(s) and affiliation(s) with postal and e-mail addresses. 
 </h3>
         </div>
+        <br />
+        <div className="gpt3__whatgpt3-container2">
+        <div className="gpt3__whatgpt3-container">
+          <Feature title="Submission of Paper for Doctoral Symposium: " text="There is Doctoral symposium that allows the Masters and 
+PhD students to submit their papers for consideration of best paper award. We are providing two awards of 
+Rs. 10,000/- each for those students. For such papers the students should follow the Doctoral symposium 
+format" />
+          <Feature title="Review and Publication of Manuscripts:" text="The originality, technical correctness, relevance, and quality of presentation of the submitted papers will be 
+evaluated by the TPC members. An accepted paper must be presented at the conference venue by a registered 
+author at the full registration rate. Each full registration covers up to two conference papers authored by the 
+registered author. Accepted and presented papers will be published in the conference Procedia (Applied For)" />
+
+        </div>
+      </div>
       </div>
     </div>
   );

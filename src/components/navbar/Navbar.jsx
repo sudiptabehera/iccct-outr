@@ -20,7 +20,7 @@ function Navbar() {
           <p><a href="#speaker">Speaker</a></p>
           <p><a href="#schedules">Schedule</a></p>
           {/* <p><a href="#registration">Registration</a></p> */}
-          <p><a href="#registration">Call for Papers</a></p>
+          <p><a href="#submission">Call for Papers</a></p>
           {/* <p><a href="#submission">Submission</a></p> */}
           <p><a href="#members">Members</a></p>
           <p><a href="#sponsor">Sponsor</a></p>
