@@ -61,3 +61,24 @@ div.submissions-container div.right {
 .gradient_btn {
   background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%);
 }
+
+ul.contact-list {
+  display: flex;
+  justify-content: center;
+}
+
+ul.contact-list li {
+  margin-right: 1rem;
+  list-style: none;
+}
+
+@media screen and (max-width: 450px) {
+  ul.contact-list {
+    display: flex;
+    flex-direction: column;
+  }
+  ul.contact-list li{
+  margin-bottom: 2rem;
+
+  }
+}

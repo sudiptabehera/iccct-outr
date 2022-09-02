@@ -13,6 +13,7 @@ section.countdown {
   
   section.countdown div {
     text-align: center;
+    margin: 0 0.1rem;
   }
   
   section.countdown div h2{
@@ -22,4 +23,14 @@ section.countdown {
   
   section.countdown div p{
       font-family: var(--font-family);
+  }
+
+  @media screen and (max-width: 650px) {
+    section.countdown{
+      display: flex;
+      flex-direction: column;
+    }
+    section.countdown div{
+      margin-bottom: 0.5rem;
+    }
   }

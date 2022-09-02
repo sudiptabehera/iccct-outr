@@ -20,15 +20,13 @@ function ContactUs() {
           </h4>
           <br></br>
           <p>
-            <ul style={{ display: "flex", flexDirection: "row" }}>
-              <br></br>
+            <ul className="contact-list">
               <li>
                 Dr. Sanjit Kumar Dash , Dept. of IT , OUTR
                 <br></br>
                 Ph. No:- 91- 9437990892
                 <br></br>Mail-id:- skdash@outr.ac.in
               </li>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <li>
                 Ms. Ananya Dastidar , Dept. of I&E , OUTR
                 <br></br>

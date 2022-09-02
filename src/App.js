@@ -37,11 +37,12 @@ function App() {
       <Features />
       <Registration />
       <Submissions />
+      <Registration />
       <CTA  />
       <Committee></Committee>
       <Brand />
       {/* <Blog /> */}
-      <ContactUs></ContactUs>
+      <ContactUs/>
       <Footer />
     </div>
   );
