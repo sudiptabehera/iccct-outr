@@ -22,6 +22,7 @@ div.heading p {
   line-height: 30px;
   color: var(--color-subtext);
   cursor: pointer;
+  text-align: center;
 }
 
 div.submissions-container {
@@ -34,7 +35,9 @@ div.submissions-container div {
 
 div.submissions-container div.left {
   margin: 0 1rem;
-  min-width: 25%;
+  display: flex;
+  justify-content: center;
+  
 }
 
 div.submissions-container div.left ul {

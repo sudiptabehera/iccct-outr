@@ -35,7 +35,6 @@ function Countdown() {
     </div>
   <section className="countdown section__margin">
     <div>
-        
         <h2>{countDown.days}</h2>
         <p>Days</p>
     </div>
